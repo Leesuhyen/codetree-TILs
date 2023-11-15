@@ -11,4 +11,4 @@ elif a == 'C':
 elif a == 'D':
     print("Effort")
 else:
-    print("failure")
+    print("Failure")
