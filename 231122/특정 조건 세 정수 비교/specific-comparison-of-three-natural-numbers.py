@@ -10,7 +10,7 @@ if s_num == a:
 else:
     print(0, end = " ")
 
-if a == b == c:
+if a == b and b == c:
     print(1)
 else:
     print(0)
