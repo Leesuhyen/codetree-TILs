@@ -4,8 +4,8 @@ b = int(num[1])
 c = int(num[2])
 
 S_num = b if b < c else c
-s_num = a if a < b else S_num
+S_num = a if a < S_num else S_num
 
 
 
-print(s_num)
+print(S_num)
