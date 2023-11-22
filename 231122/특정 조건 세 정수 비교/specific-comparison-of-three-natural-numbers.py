@@ -3,7 +3,7 @@ a = int(num[0])
 b = int(num[1])
 c = int(num[2])
 
-s_num = b if b < c else c
+s_num = a if a <= b and a <= c else b
 
 if s_num == a:
     print(1, end = " ")
