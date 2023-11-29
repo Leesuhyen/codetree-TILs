@@ -8,7 +8,7 @@ elif n % 5 == 0 and n // 2 != 0:
 else:
     print("false")
 '''
-if n % 3 == 0 and n // 2 != 0 or n % 5 == 0 and n // 2 != 0:
+if n % 2 != 0 and n % 3 == 0 or n % 2 == 0 and n % 5 == 0:
     print("true")
 else:
     print("false")
