@@ -3,6 +3,8 @@ n = int(input())
 if n <= 7:
     if n % 2 == 0:
         print(30)
+    elif n == 2:
+        print(28)
     else:
         print(31)
 else:
