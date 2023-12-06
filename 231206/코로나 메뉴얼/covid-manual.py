@@ -13,10 +13,7 @@ b_third = int(third[1])
 
 if a_one == 'Y' and b_one >= 37:
     if a_two == 'Y' and b_two >= 37:
-        if a_third == 'Y' and b_third >= 37:
-            print('E')
-        else:
-            print("E")
+        print("E")
     else:
         if a_third == 'Y' and b_third >= 37:
             print('E')
