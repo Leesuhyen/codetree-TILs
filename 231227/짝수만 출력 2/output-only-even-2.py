@@ -23,7 +23,7 @@ else:
             b -= 2        
 '''
 
-k = a + 1
+
 
 if a < b:
     t = a
@@ -35,5 +35,4 @@ while a >= b:
         print(a, end=' ')
         a -= 2
     else:
-        print(k, end=' ')
-        k -= 2
+        a -= 1
