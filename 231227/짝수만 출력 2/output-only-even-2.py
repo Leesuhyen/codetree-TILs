@@ -1,7 +1,7 @@
 arr = input().split()
 a = int(arr[0])
 b = int(arr[1])
-t = a + 1
+t = 0
 '''
 if a < b:
     if a % 2 == 0:
@@ -22,3 +22,18 @@ else:
             print(b, end=' ')
             b -= 2        
 '''
+
+k = a + 1
+
+if a < b:
+    t = a
+    a = b
+    b = t
+
+while a >= b:
+    if a % 2 == 0:
+        print(a, end=' ')
+        a -= 2
+    else:
+        print(k, end=' ')
+        k -= 2
