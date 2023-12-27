@@ -33,6 +33,6 @@ if a < b:
 while a >= b:
     if a % 2 == 0:
         print(a, end=' ')
-        a -= 2
+        a -= 1
     else:
         a -= 1
