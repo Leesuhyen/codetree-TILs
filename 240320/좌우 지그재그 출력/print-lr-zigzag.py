@@ -7,6 +7,6 @@ for i in range(n):
             print(cnt, end=' ')
             cnt += 1
         else:
-            print(n*2 - j, end=' ')
+            print(n*i - j + i+ i + i, end=' ')
             cnt += 1
     print()
