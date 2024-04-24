@@ -4,4 +4,7 @@ for i in range(n):
     for j in range(i + 1):
         print(chr(t), end='')
         t += 1
-    print()
+        if i == j:
+            print()
+        if t == ord('Z'):
+            t = ord('A')
