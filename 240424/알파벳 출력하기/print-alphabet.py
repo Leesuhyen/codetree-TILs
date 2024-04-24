@@ -6,5 +6,5 @@ for i in range(n):
         t += 1
         if i == j:
             print()
-        if t == ord('Z'):
+        if t > ord('Z'):
             t = ord('A')
