@@ -8,6 +8,6 @@ for i in range(n):
     for j in range(n - i):
         print(chr(t), end=' ')
         t += 1
-    if t > ord('Z'):
-        t = ord('A')
+        if t > ord('Z'):
+            t = ord('A')
     print()
