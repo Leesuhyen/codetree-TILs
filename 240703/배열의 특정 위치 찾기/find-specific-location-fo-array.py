@@ -8,5 +8,5 @@ for elem in num[1::2]:
 for  elem in num[2::3]:
     r_num += elem
     cnt += 1
-t_num = r_num // cnt
+t_num = r_num / cnt
 print(f"{s_num} {t_num:.1f}")
