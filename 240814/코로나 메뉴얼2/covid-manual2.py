@@ -15,5 +15,4 @@ for i in range(3):
 
 if st[0] >= 2:
     sr = 'E'
-for i in range(1):
     print(f"{st[0]} {st[1]} {st[2]} {st[3]} {sr}")
