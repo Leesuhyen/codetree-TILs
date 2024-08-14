@@ -1,6 +1,8 @@
 num = list(map(int, input().split()))
 score = [0] * 11
 for elem in num:
+    if elem == 0:
+        break
     sc = 0
     sc = elem // 10
     score[sc] += 1
