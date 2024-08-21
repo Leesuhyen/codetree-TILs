@@ -11,6 +11,9 @@ for i in range(3):
     else:
         st[3] += 1
 
+#for elem in st:
+   # print(elem, end=' ')
+for j in range(len(st) -1):
+    print(st[j], end=' ')
 if st[0] >= 2:
-    sr = 'E'
-    print(f"{st[0]} {st[1]} {st[2]} {st[3]} {sr}")
+    print('E')
