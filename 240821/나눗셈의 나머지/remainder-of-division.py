@@ -1,5 +1,5 @@
 num = list(map(int,input().split()))
-cnt_list = [0] * 7
+cnt_list = [0] * 10
 n = 0
 s = 0
 while num[0] >= 1:
