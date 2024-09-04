@@ -2,7 +2,7 @@ n = int(input())
 num = list(map(int, input().split()))
 
 cnt = 0
-max_val = num[0]
+max_val = -1
 
 for  curr_val in num:
     if max_val < curr_val:
