@@ -5,5 +5,3 @@ if len(txt1) < len(txt2):
     print(txt2, len(txt2))
 elif len(txt1) == len(txt2):
     print(same)
-else:
-    print(txt1, len(txt1))
