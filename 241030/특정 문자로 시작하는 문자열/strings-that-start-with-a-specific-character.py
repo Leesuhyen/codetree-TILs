@@ -12,4 +12,4 @@ for i in range(n):
     if num[i][0] == txt:
         cnt += 1
 qwer = round(total / n, 0)
-print(f'{cnt} {qwer:.2f}')
+print(f'{cnt} {qwer}0')
