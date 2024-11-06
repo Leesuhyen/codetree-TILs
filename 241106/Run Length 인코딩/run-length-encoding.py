@@ -17,4 +17,4 @@ for i in range(len(n)):
 num.append(cnt)
 print(len(num))
 for elem in num:
-    print(elem, end='')
+    print(str(elem), end='')
