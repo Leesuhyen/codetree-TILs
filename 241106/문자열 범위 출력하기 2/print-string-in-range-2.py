@@ -1,5 +1,5 @@
 n = list(input())
 m = int(input())
 
-for i in range(m):
-    print(n[m - i + 2], end='')
+for i in range(-1, -1-m, -1):
+    print(n[i], end='')
