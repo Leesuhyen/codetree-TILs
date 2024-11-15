@@ -7,5 +7,6 @@ if n.find(m) == -1:
 
 for i in range(len(n)):
     if n[i:i+2] == m:
-        cnt += 1
-print(cnt)
+        print(i)
+        break
+        
